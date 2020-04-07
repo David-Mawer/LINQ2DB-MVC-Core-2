@@ -1,0 +1,9 @@
+/.vs/
+bin/
+obj/
+/PolAdminCore/obj/
+/PolAdminCore/obj/
+/DB/sql/
+/DB/DB.dbmdl
+/DB/DB.jfm
+/PolAdminCore/PolAdminCore.csproj.user
