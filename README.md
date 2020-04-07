@@ -6,6 +6,7 @@ This is the basic MVC template for **.Net Core 2.1** with a few tweaks: -
  - The Identity UI is **fully scaffolded**.
 	 - built-in **scaffolding bugs** have been **removed**.
 	 - **Identity tables don't have the default names** - these can be changed.
+	 - Two-Factor Authentication works (**with the QR Code**).
  - **External Authentication** is easy to setup (documented in Startup.cs). These 3 integrations are coded already: -
 	 - Google Authentication
 	 - Microsoft Authentication
