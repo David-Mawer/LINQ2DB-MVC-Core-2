@@ -18,6 +18,7 @@ This is the basic MVC template for **.Net Core 2.1** with a few tweaks: -
  - Linq2DB is fully integrated into the project : -
 	 - the default appsettings.json connection string is used to configure Linq2DB
 	 - The T4 class generation is installed and configured
+	 - Database is SQL Server
 
 # Instructions
 
