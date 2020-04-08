@@ -19,15 +19,15 @@ namespace LINQ2DB_MVC_Core_2.Data
 	/// Data Source    : (local)
 	/// Server Version : 15.00.2070
 	/// </summary>
-	public partial class PolAdminDB : LinqToDB.Data.DataConnection
+	public partial class MyAppDB : LinqToDB.Data.DataConnection
 	{
-		public PolAdminDB()
+		public MyAppDB()
 		{
 			InitDataContext();
 			InitMappingSchema();
 		}
 
-		public PolAdminDB(string configuration)
+		public MyAppDB(string configuration)
 			: base(configuration)
 		{
 			InitDataContext();

@@ -61,7 +61,7 @@
     BaseDataContextClass           = "LinqToDB.Data.DataConnection";
     // (string) Name of data context class.
     // Default: <DATABASE_NAME> + "DB"
-    DataContextName                = "PolAdminDB";
+    DataContextName                = "MyAppDB";
     // Enables generation of constructors for data context class.
     // Disabling could be usefull if you need to have custom implementation
     // of constructors in partial class

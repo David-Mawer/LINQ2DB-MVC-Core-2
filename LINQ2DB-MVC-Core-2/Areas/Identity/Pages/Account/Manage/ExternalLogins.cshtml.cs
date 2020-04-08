@@ -100,7 +100,7 @@ namespace LINQ2DB_MVC_Core_2.Areas.Identity.Pages.Account.Manage
             var result = await _userManager.AddLoginAsync(user, info);
             if (!result.Succeeded)
             {
-                StatusMessage = "The external login is already linked to another PolAdmin account. Please make sure you are using the correct Google / Microsoft / Facebook login at the moment.";
+                StatusMessage = "The external login is already linked to another account. Please make sure you are using the correct Google / Microsoft / Facebook login at the moment.";
                 return RedirectToPage();
             }
             else
