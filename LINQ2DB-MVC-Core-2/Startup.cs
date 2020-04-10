@@ -96,7 +96,7 @@ namespace LINQ2DB_MVC_Core_2
             });
 
             // set up to use MVC
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             // Notes for SSO: -
             //  1. For Google, FaceBook and Microsoft... ...All the coding has been done for you.
