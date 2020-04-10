@@ -1,6 +1,6 @@
-# This is a .Net Core 2.1 Template for Linq2Db
+# This is a .Net Core 2.2 Template for Linq2Db
 
-This is the basic MVC template for **.Net Core 2.1** with a few tweaks: -
+This is the basic MVC template for **.Net Core 2.2** with a few tweaks: -
 
  - The ORM tool is **Linq2DB**
  - The Identity UI is **fully scaffolded**.
