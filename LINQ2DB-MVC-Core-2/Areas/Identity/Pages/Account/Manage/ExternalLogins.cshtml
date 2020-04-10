@@ -15,7 +15,7 @@
                 <tr>
                     <td width="40%">
                         @if (login.IconSource != "")
-                        {<img src="@login.IconSource" alt="Google" style="max-height: 40px; padding-right: 20px" />}<span style="font-size: 18px; padding-right: 20px;">@login.LoginProvider</span>
+                        {<img src="@login.IconSource" alt="@login.LoginProvider" style="max-height: 40px; padding-right: 20px" />}<span style="font-size: 18px; padding-right: 20px;">@login.LoginProvider</span>
                     </td>
                     <td>
                         @if (Model.ShowRemoveButton)
@@ -49,7 +49,7 @@
                 {
                     <button id="link-login-button" type="submit" class="btn btn-default" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account" style="font-size: 18px; padding-right: 20px;">
                         @if (provider.IconSource != "")
-                        {<img src="@provider.IconSource" alt="Google" style="max-height: 40px; padding-right: 20px" />}@provider.DisplayName
+                        {<img src="@provider.IconSource" alt="@provider.DisplayName" style="max-height: 40px; padding-right: 20px" />}@provider.DisplayName
                     </button>
                 }
             </p>
